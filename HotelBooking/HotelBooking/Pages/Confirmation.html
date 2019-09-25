@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Script/jquery.js"></script>
+    <script src="../Script/jquery-ui.js"></script>
+    <link href="../Script/jquery-ui.css" rel="stylesheet" />
+    <link href="../CSS/MyStyle.css" rel="stylesheet" />
+    <script src="../Script/myJs.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="../Image/Header.png" />
+        </div>
+
+
+        <!--<div id="menu">
+        <ul>
+            <li><a href="../Default.html"><span> Home </span></a></li>
+            <li><a href="../Pages/Hotels.html"><span> Hotels </span></a></li>
+            <li><a href="ContactUs.html"><span> Contact Us </span></a></li>
+        </ul>
+    </div>-->
+
+        <div style="height:30px; width:100%; margin-top:-2px; background-color:#10a1b7;">
+
+        </div>
+        <div style=" width:100%;">
+            <nav class="menu" style="margin-top: -163px">
+                <ul>
+                    <li><a href="/Default.html" style="font-size:15px; border-right: 2px solid white;">Home</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="fly" title="Contact Us" href="" style="font-size:15px;border-right: 2px solid white;">Hotels</a>
+                        <ul>
+                            <li><a href="Hotels.html">All Hotels</a></li>
+                            <li><a href="">Resorts</a></li>
+                            <li><a href="">Guest House</a></li>
+                            <li><a href="">Rental House</a></li>
+                        </ul>
+                    </li>
+                    <li class="close"><a href="#url">Close X</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="fly" href="" style="font-size:15px;border-right: 2px solid white;">Services</a>
+                        <ul>
+                            <li><a href="">Lifeguard</a></li>
+                            <li>
+                                <a class="fly" href="#url">Training</a>
+                                <ul>
+                                    <li class="p1"><a href="">Hourse Riding</a></li>
+                                    <li><a href="">Swiming</a></li>
+                                    <li>
+                                        <a class="fly" href="#url">Advanced Training</a>
+                                        <ul>
+                                            <li class="p1"><a href="">Surfing</a></li>
+                                            <li><a href="">Parachute Riding</a></li>
+                                            <li><a href="">Waterboat Riding</a></li>
+                                            <li><a href="">Snow boarding</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Expert Guide</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Night Life</a></li>
+                            <li>
+                                <a class="fly" href="#url">Restaurants</a>
+                                <ul>
+                                    <li class="p1"><a href="">Breakfast</a></li>
+                                    <li><a href="">Launch</a></li>
+                                    <li><a href="">Dinner</a></li>
+                                    <li><a href="">Others</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="fly" href="">Transportation</a>
+                                <ul>
+                                    <li class="p1"><a href="">Within City</a></li>
+                                    <li><a href="">Hill Area</a></li>
+                                    <li><a href="">In The Water</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="close"><a href="#url">Close X</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="fly" href="" style="font-size:15px; border-right: 1px solid white;">Location</a>
+                        <ul>
+                            <li><a href="">Cox's Bazar</a></li>
+                            <li><a href="">Inani Beach</a></li>
+                            <li><a href="">Saint Martin</a></li>
+                        </ul>
+                    </li>
+                    <li class="close"><a href="#url">Close X</a></li>
+                </ul>
+
+                <ul style="width:30px">
+                    <li>
+                        <img src="../Icon/facebook.png" style="height:30px; width:30px;  margin-left:310px" />
+                    </li>
+                </ul>
+
+                <ul style="width:30px">
+                    <li>
+                        <img src="../Icon/linkedin.png" style="height:30px; width:30px;   margin-left:240px" />
+                    </li>
+                </ul>
+                <ul style="width:30px">
+                    <li>
+                        <img src="../Icon/twitter.png" style="height:30px; width:30px; margin-left:170px" />
+                    </li>
+                </ul>
+                <ul style="width:30px">
+                    <li>
+                        <img src="../Icon/youtube.png" style="height:30px; width:30px; margin-left:100px" />
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div id="main" style="height:500px; width:500px; background-color: peru; margin:10px auto; margin-top:-152px">
+            <div>
+                <br />
+            </div>
+            <div>
+                <h1 style="color:white; text-align:center;"> Please fillup the form </h1>
+            </div>
+
+            <div id="confirmationForm">
+                <div>
+                    <label id="confirmLbl"> Your Name : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="text" placeholder="Your Name" required /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Email : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="email" placeholder="Email" /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Phone Number : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="number" placeholder="Phone Number" required /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Address : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="text" placeholder="Address" /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Check-In Date : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="text" id="checkInDate" placeholder="mm/dd/yyy" /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Check-Out Date : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="text" id="checkOutDate" placeholder="mm/dd/yyyy" /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>No. of Persones : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="number" placeholder="Number of Person (Adult)" required /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>No. of Rooms : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="number" placeholder="Number of Rooms" required /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Room Type : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="text" readonly="readonly" /><br />
+                </div>
+
+                <div id="confirmLbl">
+                    <label>Price Per Night : </label>
+                </div>
+                <div id="ConfirmInput">
+                    <input type="text" readonly="readonly" /><br />
+                </div>
+            </div>
+
+            <div>
+                <input type="button" id="confirmBtn" value="Confirm" style="" onclick="toThankPage()" />
+            </div>
+
+        </div>
+
+
+
+
+        <div id="footer">
+            <div id="company">
+                <a href=""> Cox-Booking </a>
+            </div>
+            <div id="copyright">
+                <p> &copy;coxbooking.com - All rights reserved.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="Script/font-awesome.min.css" rel="stylesheet" />
+    <script src="Script/jquery.js"></script>
+    <script src="Script/jquery-ui.js"></script>
+    <link href="Script/jquery-ui.css" rel="stylesheet" />
+    <link href="CSS/MyStyle.css" rel="stylesheet" />
+    <link href="CSS/font-awesome.min.css" rel="stylesheet" />
+    <link href="Script/aos.css" rel="stylesheet" />
+    <script src="Script/aos.js"></script>
+    <script src="Script/myJs.js"></script>
+
+</head>
+<body>
+    <div class='thetop'></div>
+    <div id="container">
+        <div id="header">
+            <img src="Image/Header.png" />
+        </div>
+        <div class='scrolltop'>
+            <div class='scroll'><img src="Icon/arrow-147-xxl.png" style="height:70px; width:60px" title="Move Up" /></div>
+        </div>
+
+        <div id="menu" style="background-color:red">
+        </div>
+        <div style="height:30px; width:100%; margin-top:-2px; background-color:#10a1b7;">
+
+        </div>
+        <div style=" width:100%;">
+            <nav class="menu" style="margin-top: -163px">
+                <ul>
+                    <li><a href="#" style="font-size:15px; border-right: 2px solid white;">Home</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="fly" title="Contact Us" href="" style="font-size:15px;border-right: 2px solid white;">Hotels</a>
+                        <ul>
+                            <li><a href="Pages/Hotels.html">All Hotels</a></li>
+                            <li><a href="">Resorts</a></li>
+                            <li><a href="">Guest House</a></li>
+                            <li><a href="">Rental House</a></li>
+                        </ul>
+                    </li>
+                    <li class="close"><a href="#url">Close X</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="fly" href="" style="font-size:15px;border-right: 2px solid white;">Services</a>
+                        <ul>
+                            <li><a href="">Lifeguard</a></li>
+                            <li>
+                                <a class="fly" href="#url">Training</a>
+                                <ul>
+                                    <li class="p1"><a href="">Hourse Riding</a></li>
+                                    <li><a href="">Swiming</a></li>
+                                    <li>
+                                        <a class="fly" href="#url">Advanced Training</a>
+                                        <ul>
+                                            <li class="p1"><a href="">Surfing</a></li>
+                                            <li><a href="">Parachute Riding</a></li>
+                                            <li><a href="">Waterboat Riding</a></li>
+                                            <li><a href="">Snow boarding</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Expert Guide</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Night Life</a></li>
+                            <li>
+                                <a class="fly" href="#url">Restaurants</a>
+                                <ul>
+                                    <li class="p1"><a href="">Breakfast</a></li>
+                                    <li><a href="">Launch</a></li>
+                                    <li><a href="">Dinner</a></li>
+                                    <li><a href="">Others</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="fly" href="">Transportation</a>
+                                <ul>
+                                    <li class="p1"><a href="">Within City</a></li>
+                                    <li><a href="">Hill Area</a></li>
+                                    <li><a href="">In The Water</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="close"><a href="#url">Close X</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="fly" href="" style="font-size:15px; border-right: 1px solid white;">Location</a>
+                        <ul>
+                            <li><a href="">Cox's Bazar</a></li>
+                            <li><a href="">Inani Beach</a></li>
+                            <li><a href="">Saint Martin</a></li>
+                        </ul>
+                    </li>
+                    <li class="close"><a href="#url">Close X</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div id="main" style="margin-top:-153px">
+            <div id="second" class="parallax4">
+                <div id="slideImg">
+                    <figure>
+                        <img src="Image/CoxBazar005.jpg" style="height:450px; width:645px" />
+                        <img src="Image/CoxBazar002.jpg" style="height:450px; width:645px" />
+                        <img src="Image/CoxBazar003.jpg" style="height:450px; width:645px" />
+                        <img src="Image/CoxBazar004.jpg" style="height:450px; width:645px" />
+                        <img src="Image/CoxBazar006.jpg" style="height:450px; width:645px" />
+                    </figure>
+                </div>
+                <div>
+                    <div id="availableRoom" style="text-align:center; font-size:15px; color:black; font-weight:bold" data-aos="zoom-out">
+                        <label style="color: black; text-align:center; font-size:25px; font-weight:bold"> Search </label>
+                        <div style="margin-top:20px;">
+                            <div>
+                                <div style="float:left">
+                                    <input type="text" id="checkInDate" style="height:30px; width: 240px; text-align:center; font-size:20px;" placeholder=" Check-In" /><br /><br />
+                                </div>
+                                <div style="float:left; margin-left:-240px; margin-top:2px">
+                                    <i class="fa fa-calendar" style="font-size:30px"></i>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div style="float:left">
+                                    <input type="text" id="checkOutDate" style="height:30px; width: 240px; text-align:center; font-size:20px; margin-top:10px" placeholder=" Check-Out" /><br /><br />
+                                </div>
+                                <div style="float:left; margin-left:-240px">
+                                    <i class="fa fa-calendar" style="font-size:30px; margin-top:12px"></i>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div style="float:left">
+                                    <input type="number" min="1" max="20" value="1" style="height:30px; width: 240px; text-align:center; font-size:20px; margin-top:10px" placeholder=" Guests" /><br /><br />
+                                </div>
+                                <div style="float:left; margin-left:-240px">
+                                    <i class="fa fa-group" style="font-size:30px; margin-top:12px"></i>
+                                </div>
+                            </div>
+
+                            <div class="price" style="height:30px; width:180px; float:left; margin-left:-35px; margin-top:20px">
+                                <input type="range" min="1000" max="5000" value="50" class="slider" id="myRange" style="margin-left:40px; float:left; width:160px">
+                            </div>
+                            <div class="taka" style="height:20px; width:100px; float:left;">
+                                <p style="float:left; margin-top:15px; margin-left:30px; text-align:right">&#2547; <span id="demo"></span></p><br />
+                            </div>
+                            <br /><br /><br /><br />
+                        </div>
+                        <div style="margin-top:180px; margin-left:60px">
+                            <input type="button" id="btnCheck" value="Check" onclick="roomSearch()" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="parallax" id="offer" style="height: 300px; width: 950px">
+                <br /><br />
+                <div data-aos="fade-up" style="background-color:white; height:210px; width:950px; margin:auto;">
+                    <div style="height:150px; width:300px; margin-left:15px; float:left">
+                        <label style="margin-left:10px; font-size:20px; font-weight:bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Special drinks Offer </label>
+                        <img src="Image/FoodOffer01.png" style="height:140px; width:300px; padding-top:5px" />
+                        <a href="">Get up to 50% off on all types of drinks when use hotel's restaurent...</a>
+                    </div>
+
+                    <div style="height:150px; width:300px; margin-left:10px; float:left">
+                        <label style="margin-left:10px; font-size:20px; font-weight:bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Special food Offer </label>
+                        <img src="Image/FoodOffer02.jpg" style="height:140px; width:300px; padding-top:5px" />
+                        <a href="">Get up to 50% off on all foods when use hotel's restaurent...</a>
+                    </div>
+
+                    <div style="height:150px; width:300px; margin-left:10px; float:left">
+                        <label style="margin-left:10px; font-size:20px; font-weight:bold; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Special Rate Offer </label>
+                        <img src="Image/HotelOffer01.png" style="height:140px; width:300px; padding-top:5px" />
+                        <a href="">Get up to 55% off on all rooms for cristmas and new year...</a>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="button">
+                    <span onclick="openForm()">
+                        <img src="Icon/chat.png" onclick="openForm()" />
+                    </span>
+                </div>
+                <div class="chat-popup" id="myForm">
+                    <form action="" class="form-container">
+                        <h1>Chat</h1>
+
+                        <label for="msg"><b>Message</b></label>
+                        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                        <button type="submit" class="btn">Send</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+            </div>
+            <div id="forth">
+                <div>
+                    <h3 style="margin-left:10px">Today's Best Deal</h3>
+                </div>
+                <div id="one">
+                    <img src="Image/R1.jpg" style="height:230px; width:300px; border:10px solid white; cursor:pointer" onclick="hotelToRoom1()" />
+                    <span style="font-weight:bold; color: black; font-size:15px">Click to Book</span>
+                </div>
+                <div id="two">
+
+                    <img src="Image/R2.jpg" style="height:230px; width:300px; border:10px solid white; cursor:pointer" onclick="hotelToRoom1()" />
+                    <span style="font-weight:bold; color: black; font-size:15px">Click to Book</span>
+                </div>
+                <div id="three">
+                    <img src="Image/R3.jpg" style="height:230px; width:300px; border:10px solid white; cursor:pointer" onclick="hotelToRoom1()" />
+                    <span style="font-weight:bold; color: black; font-size:15px">Click to Book</span>
+                </div>
+
+            </div>
+
+            <div class="parallax3" id="offer2" style="height: 200px; width: 950px">
+                <div style="margin-left:200px" data-aos="zoom-in">
+                    <div style="height:60px">
+
+                    </div>
+                    <i class="fa fa-hotel" style="font-size:30px; margin-top:12px; color:ghostwhite;"> Get Your Desired Hotel At Cheapest Price...</i>
+                </div>
+            </div>
+
+            <div id="offer2" style="height: 300px; width: 950px; background-color:white">
+                <h3 style="margin-left:10px">Top Rated Hotels</h3>
+                <div style="background-color:white; height:210px; width:950px; margin:auto;">
+                    <div style="height:150px; width:300px; margin-left:15px; float:left">
+                        <img src="Image/Sayeman Beach Resort.jpg" style="height:140px; width:300px; padding-top:5px" />
+                        <label style=" font-size:20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Sayeman Beach Resort </label><br />
+                        <a href="">Sayeman Beach Resort provide you an extra ordinary facilities including restaurent services...</a><br /><br />
+                        <label>Star Rating : </label>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+
+                    <div style="height:150px; width:300px; margin-left:10px; float:left">
+                        <img src="Image/Best Western Plus.jpg" style="height:140px; width:300px; padding-top:5px" />
+                        <label style="font-size:20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Best Western Plus</label><br />
+                        <a href="">Best Western Plus a top class hotel with modern facilities...</a><br /><br /><br />
+                        <label>Star Rating : </label>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+
+                    <div style="height:150px; width:300px; margin-left:10px; float:left">
+                        <img src="Image/Hotel The Cox Today.jpg" style="height:140px; width:300px; padding-top:5px" />
+                        <label style="font-size:20px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Hotel The Cox Today </label><br />
+                        <a href="">Hotel The Cox Today introduce you with a high level of professionality in hotel business...</a><br /><br />
+                        <label>Star Rating : </label>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parallax2" id="offer2" style="height: 300px; width: 950px">
+                <div style="margin-left:160px" data-aos="slide-up">
+                    <div style="height:60px">
+
+                    </div>
+                    <i class="fa fa-map-marker" style="color:black; font-size:25px"></i>
+                    <label style="font-size:30px; color:white; font-weight:bold; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"><a href="https://www.google.com/maps/@21.4062582,91.9878081,479a,35y,39.35t/data=!3m1!1e3" target="_blank" style="text-decoration:none; color:white">Cox's Bazar,The Longest Beach In The World</a></label>
+                </div>
+            </div>
+
+            <div id="offer2" style="height: 140px; width: 950px; background-color: darkgray">
+                <br />
+                <div style="margin-left:50px; float:left; color:black">
+                    <a href="" style="font-size:15px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:black">Our other services</a><br /><br />
+                    <a href="" style="color:black">Trive package</a><br />
+                    <a href="" style="color:black">Honeymoon package</a><br />
+                    <a href="" style="color:black">Toure Guide</a><br />
+                    <a href="" style="color:black">food package</a><br />
+                </div>
+                <div style="margin-left:100px; float:left">
+                    <a href="" style="font-size:15px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:black">Transportation services</a><br /><br />
+                    <a href="" style="color:black">Air Ticket</a><br />
+                    <a href="" style="color:black">All types of Bus Ticket</a><br />
+                    <a href="" style="color:black">Ship Ticket</a><br />
+                    <a href="" style="color:black">Railway Ticket</a><br />
+                </div>
+                <div style="margin-left:100px; float:left">
+                    <a href="" style="font-size:15px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:black">Upcomming Project</a><br /><br />
+                    <a href="" style="color:black">Event Management</a><br />
+                    <a href="" style="color:black">House Rent</a><br />
+                    <a href="" style="color:black">Booking Abrot</a><br />
+                </div>
+                <div style="margin-left:50px; float:left">
+                    <a href="" style="font-size:15px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:black">Contact Us</a><br /><br />
+                    <label style="color:black">Shek Mujib Road,</label><br />
+                    <label style="color:black">Agrabad, Chittagong-4100</label><br />
+                    <label style="color:black">+88017XX-XX-XX-XX</label><br />
+                </div>
+            </div>
+            <div id="social" style="height:46px; width:100%; background-color:black">
+                <img src="Icon/twitter-5-xxl.png" style="height:40px; width:40px; margin-left:250px; margin-top:3px; cursor:pointer" title="Twitter" />
+                <img src="Icon/google-plus-5-xxl.png" style="height:40px; width:40px; margin-left:100px; margin-top:3px; cursor:pointer" title="Google Plus" />
+                <img src="Icon/facebook-5-xxl.png" style="height:40px; width:40px; margin-left:100px; margin-top:3px; cursor:pointer" title="Facebook" />
+                <img src="Icon/instagram-5-xxl.png" style="height:40px; width:40px; margin-left:100px; margin-top:3px; cursor:pointer" title="Instagram" />
+            </div>
+        </div>
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function () {
+                output.innerHTML = this.value;
+            };
+            AOS.init({
+                duration: 1200,
+            })
+
+
+            // Scroll UP
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 20) {
+                    $('.scroll').fadeIn();
+                } else {
+                    $('.scroll').fadeOut();
+                }
+            });
+            $(function () { $(".scroll").click(function () { $("html,body").animate({ scrollTop: $(".thetop").offset().top }, "1000"); return false }) })
+
+
+        </script>
+
+
+        <div id="footer">
+            <div id="company">
+                <a href=""> Cox-Booking </a>
+            </div>
+            <div id="copyright">
+                <p> &copy;coxbooking.com - All rights reserved.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
